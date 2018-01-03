@@ -1,0 +1,16 @@
+<div style="text-align:center">
+
+  <h1>
+    Computer Science Quote!
+  </h1>
+  <div *ngIf="quotes != null">
+    "{{quotes.getQuote()}}"
+    -{{quotes.getAuthor()}}
+  </div>
+  <p>
+
+  </p>
+  <button (click)="onClick()" class="btn btn-primary btn-lg btn-block">click for new quote</button>
+
+</div>
+
